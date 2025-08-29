@@ -4,6 +4,11 @@ This guide explains how to adapt the machine learning techniques in this reposit
 
 ## Quick Start
 
+**For immediate testing:** Run the quickstart script to verify your setup:
+```bash
+python indian_market_quickstart.py
+```
+
 For an immediate hands-on example, see the [Indian Market Data Demo](02_market_and_fundamental_data/03_data_providers/06_indian_market_data_demo.ipynb) notebook which demonstrates:
 - Downloading Indian stock data using yfinance
 - Feature engineering with Indian market data
