@@ -26,3 +26,38 @@ The notebook [03_quandl_demo](03_quandl_demo.ipynb) shows how Quandl uses a very
 
 The notebook [contains the notebook [zipline_data](05_zipline_data.ipynb) briefly introduces the backtesting library `zipline` that we will use throughout this book and show how to access stock price data while running a backtest. For installation please refer to the instructions [here](../../installation).
 
+## Indian Market Data Example
+
+The notebook [06_indian_market_data_demo](06_indian_market_data_demo.ipynb) provides a comprehensive example of how to adapt all the techniques in this book for Indian equity markets, including data access, feature engineering, and machine learning model development.
+
+## Indian Market Data Sources
+
+For trading strategies focused on Indian equity markets, the following data sources and approaches can be used to adapt the techniques shown in this book:
+
+### Yahoo Finance with Indian Stock Symbols
+
+The `yfinance` library demonstrated in [02_yfinance_demo.ipynb](02_yfinance_demo.ipynb) works well with Indian stocks traded on NSE (National Stock Exchange) and BSE (Bombay Stock Exchange):
+
+- **NSE stocks**: Use `.NS` suffix (e.g., 'RELIANCE.NS', 'TCS.NS', 'INFY.NS')
+- **BSE stocks**: Use `.BO` suffix (e.g., 'RELIANCE.BO', '500325.BO')
+
+### Alternative Indian Market Data Providers
+
+1. **Alpha Vantage**: Provides Indian stock data through their free and premium APIs
+2. **Quandl**: Offers NSE data through various data providers
+3. **Zerodha Kite Connect**: API for real-time and historical Indian market data
+4. **NSE/BSE Official APIs**: Direct access to exchange data
+5. **Economic Times Markets**: Historical data scraping options
+
+### Indian Market Considerations
+
+When adapting the ML techniques for Indian markets, consider:
+
+- **Trading Hours**: IST 9:15 AM - 3:30 PM (Monday-Friday)
+- **Market Holidays**: Different from US markets (include Diwali, Holi, etc.)
+- **Currency**: All prices in Indian Rupees (INR)
+- **Settlement**: T+2 settlement cycle
+- **Market Indices**: NIFTY 50, SENSEX instead of S&P 500, NASDAQ
+
+For a complete example of using these techniques with Indian stocks, see the Indian market example notebook.
+

@@ -23,6 +23,16 @@ This repo contains **over 150 notebooks** that put the concepts, algorithms, and
 
 In addition to the information in this repo, the book's [website](ml4trading.io) contains chapter summary and additional information.
 
+## Using ML4T with Indian Stock Markets
+
+All the machine learning techniques in this repository can be adapted for **Indian equity markets**. For comprehensive guidance on:
+- Accessing Indian stock data (NSE/BSE)
+- Adapting features for Indian market characteristics  
+- Implementing strategies with Indian stocks
+- Market-specific considerations and data sources
+
+See the **[Indian Markets Guide](INDIAN_MARKETS_GUIDE.md)** and try the hands-on **[Indian Market Demo Notebook](02_market_and_fundamental_data/03_data_providers/06_indian_market_data_demo.ipynb)**.
+
 ## Join the ML4T Community!
 
 To make it easy for readers to ask questions about the book's content and code examples, as well as the development and implementation of their own strategies and industry developments, we are hosting an online [platform](https://exchange.ml4trading.io/).
